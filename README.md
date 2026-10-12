@@ -36,6 +36,7 @@ Raw CSV -> Pandas tables -> NetworkX metrics (degree, PageRank, betweenness, Lou
 
 ## Interaction
 Zoom/pan, hover details-on-demand, search by creator ID with neighbor highlighting, filters, switchable size and color encodings.
+https://influenzia-gsguv7mswtnqtazdutnhf9.streamlit.app/
 
 ## Limitations
 Top-N sample, approximate betweenness (150 sampled nodes), Twitch used as a stand-in for influencers.
