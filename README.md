@@ -36,7 +36,6 @@ Raw CSV -> Pandas tables -> NetworkX metrics (degree, PageRank, betweenness, Lou
 
 ## Interaction
 Zoom/pan, hover details-on-demand, search by creator ID with neighbor highlighting, filters, switchable size and color encodings.
-https://influenzia-gsguv7mswtnqtazdutnhf9.streamlit.app/
 
 ## Limitations
 Top-N sample, approximate betweenness (150 sampled nodes), Twitch used as a stand-in for influencers.
@@ -45,3 +44,6 @@ Top-N sample, approximate betweenness (150 sampled nodes), Twitch used as a stan
 Push these files to a GitHub repo, then at share.streamlit.io choose the repo, branch `main` and main file `app.py`.
 Large CSVs cannot go on GitHub (100 MB limit). Run `preprocess.py` locally and upload only `data/sample_edges.csv` and `data/sample_features.csv`.
 Without data files the app runs on synthetic demo data.
+
+## Features added in v2
+Community filter, degree-distribution chart, edge sampling for large graphs, dynamic min-connections slider, data-source label, friendly search messages.
