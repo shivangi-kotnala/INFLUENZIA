@@ -1,0 +1,6 @@
+streamlit>=1.50
+networkx>=3.0
+plotly>=5.18
+pandas
+numpy
+scipy
